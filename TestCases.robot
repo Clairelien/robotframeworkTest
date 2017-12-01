@@ -6,6 +6,7 @@ Library     Selenium2Library
 test1
     Open Browser    http://robotframework.org/Selenium2Library/Selenium2Library.html    chrome
     Log    您好
+    Should Be Equal    1    2    
     Close Browser
     Hi
 *** Keywords ***
