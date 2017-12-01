@@ -1,3 +1,4 @@
 *.html
 *.log
 output.xml
+libspecs/
