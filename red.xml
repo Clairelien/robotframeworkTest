@@ -3,6 +3,7 @@
     <configVersion>1</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="Selenium2Library" path="C:/Python27/lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="ExtendedSelenium2Library" path="C:/Python27/lib/site-packages/ExtendedSelenium2Library"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>

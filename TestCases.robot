@@ -1,12 +1,13 @@
 *** Setting ***
 Library    String
-Library     Selenium2Library
+# Library     Selenium2Library
+Library    ExtendedSelenium2Library
 
 *** Test Cases ***
 test1
     Open Browser    http://robotframework.org/Selenium2Library/Selenium2Library.html    chrome
     Log    您好
-    Should Be Equal    1    2    
+    # Should Be Equal    1    2    
     Close Browser
     Hi
 *** Keywords ***
