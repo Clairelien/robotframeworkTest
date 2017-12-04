@@ -1,7 +1,6 @@
 *** Setting ***
 Library    String
-# Library     Selenium2Library
-Library    ExtendedSelenium2Library
+Library     Selenium2Library
 
 *** Test Cases ***
 test1
@@ -9,7 +8,3 @@ test1
     Log    您好
     # Should Be Equal    1    2    
     Close Browser
-    Hi
-*** Keywords ***
-Hi
-    log    hi
